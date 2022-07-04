@@ -1,3 +1,9 @@
+/**
+ * Find Available Meeting Time
+ * @param {Array[Array]} schedules
+ * @param {number} duration
+ * @returns {string}
+ */
 export const scheduleMeeting = (schedules, duration) => {
   const parseTime = (stringTime) =>
     stringTime.split(":").reduce((hours, minutes) => parseInt(hours, 10) * 60 + parseInt(minutes, 10));

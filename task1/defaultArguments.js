@@ -1,3 +1,9 @@
+/**
+ * Add Defaults to Function
+ * @param {Function} func
+ * @param {Object} defaults
+ * @returns {Function}
+ */
 export const defaultArguments = function (func, defaults) {
   const returnFunc = (...args) => {
     const originalFunc = returnFunc.originalFunc;
