@@ -1,4 +1,5 @@
-import { add, defaultArguments } from "./defaultArguments";
+import { defaultArguments } from "./defaultArguments";
+const add = (a, b) => a + b;
 
 const add2 = defaultArguments(add, { b: 9 });
 const add3 = defaultArguments(add2, { b: 3, a: 2 });
