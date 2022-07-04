@@ -14,8 +14,8 @@ function which defaults to the right values.
 
 ### Requirements
 
-• You cannot assume that the function's arguments have any particular names.
-• You should be able to call defaultArguments repeatedly to change the defaults.
+- You cannot assume that the function's arguments have any particular names.
+- You should be able to call defaultArguments repeatedly to change the defaults.
 
 ## Task 2
 
@@ -34,14 +34,14 @@ spending less time on useless chit-chat and more time or valuable cash-chat.
 
 ### Requirements
 
-• All times in the calendars will be given in 24h format hh:mm, the result must also be in
+- All times in the calendars will be given in 24h format hh:mm, the result must also be in
 that format
-• A meeting is represented by its start time (inclusively) and end time (exclusively) -> if a
+- A meeting is represented by its start time (inclusively) and end time (exclusively) -> if a
 meeting takes place from 09:00 - 11:00, the next possible start time would be 11:00
-• Carla works from 09:00 (inclusively) - 19:00 (exclusively), the appointment must start and
+- Carla works from 09:00 (inclusively) - 19:00 (exclusively), the appointment must start and
 end within that range
-• If the meeting does not fit into the schedules, return null
-• The duration of the meeting will be provided as an integer in minutes
+- If the meeting does not fit into the schedules, return null
+- The duration of the meeting will be provided as an integer in minutes
 
 ## Setup Guide
 
